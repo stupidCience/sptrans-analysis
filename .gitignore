@@ -1,0 +1,79 @@
+# =========================
+# Python
+# =========================
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Compilados
+*.pyo
+*.pyd
+
+
+# =========================
+# Environment / Secrets
+# =========================
+
+.env
+.env.*
+!.env.example
+
+
+# =========================
+# Banco de dados
+# =========================
+
+# SQLite
+*.db
+*.sqlite
+*.sqlite3
+
+# SQLite temporários
+*.db-shm
+*.db-wal
+*.db-journal
+
+
+# =========================
+# Logs / Temporários
+# =========================
+
+*.log
+logs/
+tmp/
+temp/
+
+
+# =========================
+# IDEs
+# =========================
+
+.vscode/
+.idea/
+
+# =========================
+# Sistema
+# =========================
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Mac
+.DS_Store
+
+
+# =========================
+# Dados gerados
+# =========================
+
+data/*
+!data/.gitkeep
